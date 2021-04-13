@@ -1,0 +1,66 @@
+body {background-color: #8CACD3;}
+
+.navbar{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0; 
+    z-index:1000;
+    background-color:#939597;    
+}
+
+#navbarBrand{
+    &:hover{
+        color:white}      
+    }
+
+#navbarDropdown{   
+    &:hover{
+        color:white}
+        }
+
+.dropdown-item:hover{
+    background-color: #939597
+    }
+
+h1{
+    margin-top:25px;
+    }
+
+a{
+    color:#F5DF4D;
+    &:link {
+        text-decoration:none;
+    }
+}
+
+img {
+    width:25%;
+    height:auto}
+
+.imgTP{
+    width:15%;
+    height:auto;}
+
+.card{
+    width:60vw;
+        a{
+            color:#8CACD3;
+            }
+        &:hover{
+            color: #F0EEE9;
+            background-color: #939597;
+            a{
+                color:#F5DF4D;                
+            }
+        }        
+}
+ 
+#listeDesUs{
+    a{
+        color:black;
+        &:hover {
+        color: #F0EEE9;
+        }
+    }
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style_TP_portfolio.min.css">
+    <title>Travaux Pratiques réalisés</title>
+</head>
+<br>
+    <br> 
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#" id="navbarBrand">Accueil</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">               
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Liste des TP
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#card1">Boite à rythme</a>
+                      <a class="dropdown-item" href="#card2" data-target="#collapse2">Calculatrice</a>
+                      <a class="dropdown-item" href="#card3">Horloge</a>
+                      <a class="dropdown-item" href="#card4">Citations aléatoires</a>                      
+                      <a class="dropdown-item" href="#card5">4 'minis' TP</a>
+                    </div>
+                  </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#listeDesUs" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      Liste des User Stories
+                    </a>                    
+                </li>   
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                      Contact
+                    </a>                    
+                </li> 
+              </ul>              
+            </div>
+          </nav>
+        <h1 class="text-center">Travaux pratiques</h1>
+        </br>
+    </header>
+
+</br>
+
+    <div id="accueil" class="container-fluid">
+        <h5 class="text-center"> 
+            Sur cette page vous trouverez des propositions en se basant sur les travaux pratiques proposé
+            par les sites <a href="https://www.freecodecamp.org/" target="_blank" >freecodecamp.org</a> et 
+            <a href="https://openclassrooms.com/" target="_blank"> openclassrooms</a>.
+        </h5>
+
+        <h5 class="text-center">
+            J'ai essayé de tester plusieurs outils pour optimiser le combo HTML/css/javascript :
+        </h5>
+
+        <div class="listTechno container">
+                
+            <div class="row">
+                <div class="col text-center ">
+                    React            
+                    <span class="badge badge-pill ">
+                        <img class="img-fluid" src="image/react_img.png" alt="logoReact">
+                    </span>
+                </div>
+                <div class="col text-center ">
+                    Bootstrap                          
+                    <span class="badge badge-pill">
+                        <img class="img-fluid" src="image/bootstrap_img.png" alt="logoBootstrap">
+                    </span>
+                </div>
+                <div class="col text-center ">
+                    Vue js
+                    <span class="badge  badge-pill ">
+                        <img class="img-fluid" src="image/vue_js_img.png" alt="logoVue">
+                    </span>
+                </div>
+                <div class="col text-center ">
+                    Sass
+                    <span class="badge badge-pill ">
+                        <img class="img-fluid" src="image/sass_img.png" alt="logoSass">
+                    </span>
+                </div>          
+            </div>      
+        </div>        
+    </div> 
+    
+    <div id="listeDesTp" class="container-fluid">
+        <h2>Liste des TP réalisés avec un aperçu et le lien </h2>
+                
+        <div class="accordion" id="accordeonTP">
+            <div class="card" id="card1"> 
+                <div class="card-header " id="header1">                         
+                    <div type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                        Boite à rythme 
+                        <span class="badge  badge-pill text-left">
+                        <img class="imgTP img-fluid" src="image/vue_js_img.png" alt="logoVue">
+                        </span>
+                    </div>
+                </div>
+                   
+                <div id="collapse1" class="collapse" aria-labelledby="header1" data-parent="#accordeonTP">
+                    <div class="card-body text-center">
+                        <img class="imgTP card-img-top" src="image/BoiteRythme_img.PNG" alt="TP_boiteARythme">
+                        <h5>Construire une boîte à rythmes</h5>
+                        <p>
+                        <a href="https://delaunays.github.io/DrumMachine/"
+                        target="_blank">
+                        Lien vers ma boite à rythme</a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="card2">  
+                <div class="card-header " id="header2">                  
+                    <div type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                        Calculatrice
+                        <span class="badge  badge-pill text-left ">
+                        <img class="imgTP img-fluid" src="image/react_img.png" alt="logoVue">
+                        </span>
+                    </div>
+                </div>
+                    
+                <div id="collapse2" class="collapse" aria-labelledby="header2" data-parent="#accordeonTP">
+                    <div class="card-body text-center">
+                        <img class=" imgTP card-img-top" src="image/Calculatrice_img.PNG" alt="TP_calculatrice">
+                        <h5>Calculatrice</h5>
+                        <p>                            
+                            <a href="https://delaunays.github.io/calculator_react/"
+                            target="_blank">
+                            Lien vers ma calculatire
+                            </a> 
+                        </p>                            
+                    </div>
+                </div>
+            </div>                 
+
+            <div class="card" id="card3">
+                <div class="card-header " id="header3">
+                    <div type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                        Horloge 25min + 5min
+                        <span class="badge  badge-pill text-left">
+                        <img class="imgTP img-fluid" src="image/react_img.png" alt="logoVue">
+                        </span>
+                    </div>
+                </div>
+
+                <div id="collapse3" class="collapse" aria-labelledby="header3" data-parent="#accordeonTP">
+                    <div class="card-body text-center">
+                        <img class="imgTP card-img-top" src="image/Clock_img.PNG" alt="TP_horloge">
+                        <h5>Horloge 25min + 5min</h5>
+                        <p> 
+                          <a href="https://delaunays.github.io/clock/"
+                          target="_blank">
+                          Lien vers mon horloge
+                          </a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="card4">
+                <div class="card-header" id="header4">
+                    <div type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                        Machine de citations aléatoires
+                        <span class="badge  badge-pill text-left">
+                        <img class="imgTP img-fluid" src="image/vue_js_img.png" alt="logoVue">
+                        </span>
+                    </div>
+                </div>
+                        
+                <div id="collapse4" class="collapse" aria-labelledby="header4" data-parent="#accordeonTP">
+                    <div class="card-body text-center">
+                        <img class="imgTP card-img-top" src="image/Citations_img.PNG" alt="TP_horloge">
+                        <h5>Machine de citations aléatoires</h5>
+                        <p>
+                            <a href="https://delaunays.github.io/RandomQuoteMachine/"
+                            target="_blank">
+                            Lien vers ma machine de citations aléatoires
+                            </a> 
+                        </p> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="card5">
+                <div class="card-header" id="header5">
+                    <div type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                        Palindrome, Message Chiffré, Nombre romain et pendu
+                        <span class="badge  badge-pill text-left">
+                        <img class="imgTP img-fluid" src="image/react_img.png" alt="logoVue">
+                        </span>
+                    </div>
+                </div>
+                            
+                <div id="collapse5" class="collapse" aria-labelledby="header5" data-parent="#accordeonTP">
+                    <div class="card-body text-center">
+                        <img class="imgTP card-img-top" src="image/WebAccordeonTp.jpg" alt="TP_horloge">
+                        <h5>Palindrome, Message Chiffré, Nombre romain et pendu</h5>
+                        <p>                         
+                            <a href="https://delaunays.github.io/TPReact/"
+                            target="_blank"> 
+                            Lien vers 4 "petits" TP
+                            </a> 
+                        </p>                                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</br>
+
+    <div class="container-fluid" id="listeDesUs">
+        <h2>Liste des "User Stories" liés aux TP réalisés </h2>
+        <ul>
+            <li>
+                <a href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-drum-machine"
+                target="_blank">
+                Boite à rythme
+                </a>
+            </li>
+            <li>
+                <a href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator"
+                target="_blank">
+                Calculatrice
+                </a>
+            </li>
+            <li>
+                <a href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock"
+                target="_blank">
+                Horloge
+                </a>
+            </li>
+            <li>
+                <a href="https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine"
+                target="_blank">
+                Machine de citations aléatoires
+                </a>
+            </li>
+            <li>
+                <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker"
+                target="_blank">
+                Palindrome
+                </a>
+            </li>
+            <li>
+                <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher"
+                target="_blank">
+               Message chiffré
+                </a>
+            </li>
+            <li>
+                <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter"
+                target="_blank">
+                Nombre romain
+                </a>
+            </li>
+            <li>
+                <a href="https://openclassrooms.com/fr/courses/4664381-realisez-une-application-web-avec-react-js/6734471-entrainez-vous-en-creant-un-jeu-du-pendu"
+                target="_blank">
+                Pendu
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</br> 
+    <div id="contact" class="container-fluid">
+        <h2>Contact</h2>
+        <div class="row flex-column">
+            <ul>
+                <li class="btn btn-lg">
+                    <a href="https://www.linkedin.com/in/sebastien-delaunay-5093151a3/" target="_blank" class="btn bg-primary text-white">
+                        <i class="fab fa-linkedin"></i>
+                        Linkedin
+                    </a> 
+                </li>                        
+                <li class="btn btn-lg">
+                    <a href="https://github.com/DelaunayS" target="_blank" class="btn bg-primary text-white">
+                        <i class="fab fa-github"></i>
+                        Github
+                    </a> 
+                </li>
+                <li id="contact_mail" class="btn btn-lg">
+                    <a href="#projects" class="btn bg-primary text-white">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                        </svg>
+                        Envoyer-moi un mail
+                    </a> 
+                </li>              
+            </ul>
+        </div>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/e2c0a016f4.js" crossorigin="anonymous"></script> 
+   
+</body>
+</html>

@@ -1,3 +1,44 @@
+/*gestion des polices*/
+    @font-face {
+        font-family: 'icomoonregular';
+        src: url('../../src/polices/icomoon-webfont.woff2') format('woff2'),
+            url('../../src/polices/icomoon-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .icomoonregular{
+        font-family: 'icomoonregular';        
+    }
+
+    #html_icone{
+        color: #e34c26;
+        background-color:#ebebeb;}
+
+    #css_icone{
+        color:#264de4;
+        background-color:#ebebeb;}
+
+    #js_icone{
+        color:#F0DB4F;
+        background-color:#323330;}
+
+    #react_icone{
+        color:#61DBFB};
+
+    #vue_icone{
+        color:#42b883;
+    } 
+
+    #bootstrap_icone{
+        color:#563d7c;         
+    } 
+
+    #sass_icone{
+        color:#CD6799;       
+    } 
+
+
 body {background-color: #8CACD3;}
 
 .navbar{
@@ -32,6 +73,10 @@ a{
     &:link {
         text-decoration:none;
     }
+}
+
+.listTechno{
+    font-size: 22px;
 }
 
 img {

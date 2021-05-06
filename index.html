@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style_TP_portfolio.min.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/style_TP_portfolio.min.css">
     <title>Travaux Pratiques réalisés</title>
 </head>
 <br>
@@ -59,39 +59,42 @@
         </h5>
 
         <h5 class="text-center">
-            J'ai essayé de tester plusieurs outils pour optimiser le combo HTML/css/javascript :
+            J'ai essayé de tester plusieurs outils pour optimiser le combo 
+            HTML <span id="html_icone" class="icomoonregular">A</span>
+            / css <span id="css_icone" class="icomoonregular">B</span>
+            / javascript <span id="js_icone" class="icomoonregular">D</span> :
         </h5>
 
-        <div class="listTechno container">
-                
-            <div class="row">
+        <div class="listTechno container">                
+            <div class="row bg-light" >
                 <div class="col text-center ">
                     React            
-                    <span class="badge badge-pill ">
-                        <img class="img-fluid" src="image/react_img-min.png" alt="logoReact">
+                    <span id="react_icone" class="icomoonregular">
+                        F
                     </span>
                 </div>
                 <div class="col text-center ">
                     Bootstrap                          
-                    <span class="badge badge-pill">
-                        <img class="img-fluid" src="image/bootstrap_img-min.png" alt="logoBootstrap">
+                    <span id="bootstrap_icone" class="icomoonregular">
+                        L
                     </span>
                 </div>
                 <div class="col text-center ">
                     Vue js
-                    <span class="badge  badge-pill ">
-                        <img class="img-fluid" src="image/vue_js_img-min.png" alt="logoVue">
+                    <span id="vue_icone" class="icomoonregular">
+                        H
                     </span>
                 </div>
                 <div class="col text-center ">
                     Sass
-                    <span class="badge badge-pill ">
-                        <img class="img-fluid" src="image/sass_img-min.png" alt="logoSass">
+                    <span id="sass_icone" class="icomoonregular">
+                        G
                     </span>
                 </div>          
             </div>      
-        </div>        
-    </div> 
+        </div>   
+        <br>     
+    
     
     <div id="listeDesTp" class="container-fluid">
         <h2>Liste des TP réalisés avec un aperçu et le lien </h2>
@@ -101,15 +104,15 @@
                 <div class="card-header " id="header1">                         
                     <div type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                         Boite à rythme 
-                        <span class="badge  badge-pill text-left">
-                        <img class="imgTP img-fluid" src="image/vue_js_img-min.png" alt="logoVue">
+                        <span id="vue_icone" class="icomoonregular">
+                            H
                         </span>
                     </div>
                 </div>
                    
                 <div id="collapse1" class="collapse" aria-labelledby="header1" data-parent="#accordeonTP">
                     <div class="card-body text-center">
-                        <img class="imgTP card-img-top" src="image/BoiteRythme_img-min.PNG" alt="TP_boiteARythme">
+                        <img class="imgTP card-img-top" src="src/image/BoiteRythme_img-min.PNG" alt="TP_boiteARythme">
                         <h5>Construire une boîte à rythmes</h5>
                         <p>
                         <a href="https://delaunays.github.io/DrumMachine/"
@@ -124,15 +127,15 @@
                 <div class="card-header " id="header2">                  
                     <div type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
                         Calculatrice
-                        <span class="badge  badge-pill text-left ">
-                        <img class="imgTP img-fluid" src="image/react_img-min.png" alt="logoVue">
+                        <span id="react_icone" class="icomoonregular">
+                            F
                         </span>
                     </div>
                 </div>
                     
                 <div id="collapse2" class="collapse" aria-labelledby="header2" data-parent="#accordeonTP">
                     <div class="card-body text-center">
-                        <img class=" imgTP card-img-top" src="image/Calculatrice_img-min.PNG" alt="TP_calculatrice">
+                        <img class=" imgTP card-img-top" src="src/image/Calculatrice_img-min.PNG" alt="TP_calculatrice">
                         <h5>Calculatrice</h5>
                         <p>                            
                             <a href="https://delaunays.github.io/calculator_react/"
@@ -148,15 +151,15 @@
                 <div class="card-header " id="header3">
                     <div type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
                         Horloge 25min + 5min
-                        <span class="badge  badge-pill text-left">
-                        <img class="imgTP img-fluid" src="image/react_img-min.png" alt="logoVue">
+                        <span id="react_icone" class="icomoonregular">
+                            F
                         </span>
                     </div>
                 </div>
 
                 <div id="collapse3" class="collapse" aria-labelledby="header3" data-parent="#accordeonTP">
                     <div class="card-body text-center">
-                        <img class="imgTP card-img-top" src="image/Clock_img-min.PNG" alt="TP_horloge">
+                        <img class="imgTP card-img-top" src="src/image/Clock_img-min.PNG" alt="TP_horloge">
                         <h5>Horloge 25min + 5min</h5>
                         <p> 
                           <a href="https://delaunays.github.io/clock/"
@@ -172,15 +175,15 @@
                 <div class="card-header" id="header4">
                     <div type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
                         Machine de citations aléatoires
-                        <span class="badge  badge-pill text-left">
-                        <img class="imgTP img-fluid" src="image/vue_js_img-min.png" alt="logoVue">
+                        <span id="vue_icone" class="icomoonregular">
+                            H
                         </span>
                     </div>
                 </div>
                         
                 <div id="collapse4" class="collapse" aria-labelledby="header4" data-parent="#accordeonTP">
                     <div class="card-body text-center">
-                        <img class="imgTP card-img-top" src="image/Citations_img-min.PNG" alt="TP_horloge">
+                        <img class="imgTP card-img-top" src="src/image/Citations_img-min.PNG" alt="TP_horloge">
                         <h5>Machine de citations aléatoires</h5>
                         <p>
                             <a href="https://delaunays.github.io/RandomQuoteMachine/"
@@ -196,15 +199,15 @@
                 <div class="card-header" id="header5">
                     <div type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
                         Palindrome, Message Chiffré, Nombre romain et pendu
-                        <span class="badge  badge-pill text-left">
-                        <img class="imgTP img-fluid" src="image/react_img-min.png" alt="logoVue">
+                        <span id="react_icone" class="icomoonregular">
+                            F
                         </span>
                     </div>
                 </div>
                             
                 <div id="collapse5" class="collapse" aria-labelledby="header5" data-parent="#accordeonTP">
                     <div class="card-body text-center">
-                        <img class="imgTP card-img-top" src="image/WebAccordeonTp-min.jpg" alt="TP_horloge">
+                        <img class="imgTP card-img-top" src="src/image/WebAccordeonTp-min.jpg" alt="TP_horloge">
                         <h5>Palindrome, Message Chiffré, Nombre romain et pendu</h5>
                         <p>                         
                             <a href="https://delaunays.github.io/TPReact/"
@@ -302,8 +305,8 @@
             </ul>
         </div>
 
-    <script src="js/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/e2c0a016f4.js" crossorigin="anonymous"></script> 
     <script>
         let mail= document.getElementById("contact_mail")
